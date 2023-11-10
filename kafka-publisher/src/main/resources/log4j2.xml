@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- yyy avoid recursive logging  xyzt -->
 <?xml version="1.0" encoding="UTF-8"?><!-- yyy avoid recursive logging  yyy zzz -->
 <Configuration status="info" name="spring-boot-kafka-log" packages="com.reloadly">
     <Appenders>
