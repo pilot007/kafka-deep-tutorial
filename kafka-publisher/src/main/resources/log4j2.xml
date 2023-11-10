@@ -1,6 +1,3 @@
-<!-- fetch icin örnek degisiklik-->
-<!-- avoid recursive logging -->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="info" name="spring-boot-kafka-log" packages="com.reloadly">
     <Appenders>
@@ -23,5 +20,5 @@
             <AppenderRef ref="stdout"/>
         </Root>
         <Logger name="org.apache.kafka" level="WARN" /><!-- avoid recursive logging -->
-    </Loggers>
+    </Loggers><!-- fetch icin örnek degisiklik-->
 </Configuration>
