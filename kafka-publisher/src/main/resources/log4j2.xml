@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- test -->
+<!-- fetch icin örnek degisiklik-->
+<!-- avoid recursive logging -->
+
+<?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="info" name="spring-boot-kafka-log" packages="com.reloadly">
     <Appenders>
         <Kafka name="Kafka" topic="my-topic-1yy">
@@ -12,6 +15,7 @@
         <Console name="stdout" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5p [%-7t] %F:%L - %m%n"/>
         </Console>
+
     </Appenders>
     <Loggers>
         <Root level="INFO">
