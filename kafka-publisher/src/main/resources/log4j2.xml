@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- fetch icin örnek degisiklik-->
+<!-- fetch icin örnek degisiklik-->
+<!-- avoid recursive logging -->
+
+<?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="info" name="spring-boot-kafka-log" packages="com.reloadly">
     <Appenders>
         <Kafka name="Kafka" topic="my-topic-1yy">
